@@ -1,0 +1,35 @@
+.cart-comp{
+    display: flex;
+    justify-content: end;
+}
+.cart-area{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 15px;
+}
+.card-component{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: stretch;
+    padding: 5px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+button{
+    padding: 7px;
+    width: max-content;
+    margin: 0 auto;
+}
+.button{
+    display: flex;
+}
